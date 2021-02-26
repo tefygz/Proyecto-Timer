@@ -59,7 +59,7 @@ function stoped(){
 }
 function reset(){
     clearInterval(timeStarted);
-    chronometer.innerHTML = "00:00:10.00";
+    chronometer.innerHTML = "00:00:00.00";
     h= 0; m= 0; s= 0; mls=0;
     btnStart.addEventListener("click", start);
 }
